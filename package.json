@@ -11,10 +11,9 @@
     "preview": "astro preview",
     "astro": "astro",
     "generate-types": "wrangler types",
-    "deploy": "astro build && wrangler pages deploy dist/client --project-name aura-beauty-studio"
+    "deploy": "astro build && wrangler pages deploy dist --project-name aura-beauty-studio"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^13.1.6",
     "astro": "^6.1.2",
     "wrangler": "^4.79.0"
   },
