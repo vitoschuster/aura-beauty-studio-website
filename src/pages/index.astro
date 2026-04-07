@@ -239,6 +239,73 @@ const galleryPhotos = [
   },
 ];
 
+const treatmentProof = [
+  {
+    src: "/nails3.jpeg",
+    alt: "Nježna ružičasta manikura nakon tretmana noktiju u Aura Beauty Studiju",
+    title: "Nokti & stopala",
+    detail: "Prirodni finiš i uredna forma",
+    width: 360,
+    height: 640,
+  },
+  {
+    src: "/nails1.jpeg",
+    alt: "Tirkizna manikura i pedikura nakon tretmana u Aura Beauty Studiju",
+    title: "Manikura & pedikura",
+    detail: "Boja, urednost i završni sjaj",
+    width: 360,
+    height: 640,
+  },
+  {
+    src: "/nails5.jpeg",
+    alt: "Tamnocrvena manikura s ukrasnim detaljima nakon tretmana",
+    title: "Trajni lak",
+    detail: "Sezonski dizajni i sjajni završetak",
+    width: 360,
+    height: 640,
+  },
+  {
+    src: "/face-red-mask.jpeg",
+    alt: "Klijentica tijekom LED mask tretmana lica u salonu",
+    title: "Skincare",
+    detail: "LED maska i oporavak kože",
+    width: 360,
+    height: 640,
+  },
+  {
+    src: "/facemask.jpeg",
+    alt: "Klijentica tijekom skincare tretmana s LED maskom",
+    title: "LED tretman",
+    detail: "Njega lica tijekom opuštajuće sesije",
+    width: 360,
+    height: 640,
+  },
+  {
+    src: "/rolling.jpeg",
+    alt: "Maderoterapija nogu i tijela tijekom tretmana",
+    title: "Body sculpting",
+    detail: "Maderoterapija i anticelulitni rituali",
+    width: 360,
+    height: 480,
+  },
+  {
+    src: "/cupping.jpeg",
+    alt: "Cupping tretman leđa tijekom usluge u Aura Beauty Studiju",
+    title: "Masaže",
+    detail: "Cupping i opuštanje mišića",
+    width: 360,
+    height: 480,
+  },
+  {
+    src: "/spa-day.jpeg",
+    alt: "Klijentica na tretmanu lica s maskom u Aura Beauty Studiju",
+    title: "Beauty ritual",
+    detail: "Autentični trenuci iz tretmana",
+    width: 360,
+    height: 640,
+  },
+];
+
 const reels = [
   {
     id: 1,
@@ -424,6 +491,42 @@ const reels = [
               <p class="service-desc">{s.desc}</p>
               <a href="#cjenik" class="service-link">Pogledaj cijene →</a>
             </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- REZULTATI TRETMANA -->
+    <section class="proof" id="rezultati">
+      <div class="container">
+        <div class="proof-header">
+          <div>
+            <p class="section-label">Rezultati Tretmana</p>
+            <h2 class="section-title">Stvarni klijenti,<br/><em>stvarni trenuci</em></h2>
+          </div>
+          <p class="proof-copy">
+            Fotografije su snimljene telefonom prije, tijekom i nakon tretmana.
+            Nisu studijski uređene, ali jasno pokazuju atmosferu i rezultate koje klijentice dobivaju u Auri.
+          </p>
+        </div>
+        <div class="proof-grid">
+          {treatmentProof.map((item) => (
+            <figure class="proof-card">
+              <img
+                class="proof-image"
+                src={item.src}
+                alt={item.alt}
+                width={item.width}
+                height={item.height}
+                sizes="(max-width: 768px) 86vw, (max-width: 1100px) 42vw, 28vw"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption class="proof-caption">
+                <span class="proof-tag">{item.title}</span>
+                <p class="proof-detail">{item.detail}</p>
+              </figcaption>
+            </figure>
           ))}
         </div>
       </div>
@@ -1048,6 +1151,74 @@ const reels = [
   }
   .service-link:hover { opacity: 0.7; }
 
+  /* ── PROOF ── */
+  .proof {
+    padding: var(--section-pad) 0;
+    background:
+      radial-gradient(circle at top left, rgba(203,178,131,0.08), transparent 32%),
+      var(--dark);
+  }
+
+  .proof-header {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+    gap: 2rem;
+    align-items: end;
+    margin-bottom: clamp(2rem, 5vw, 3rem);
+  }
+
+  .proof-copy {
+    font-size: 0.88rem;
+    line-height: 1.8;
+    color: rgba(250,249,245,0.62);
+    max-width: 34rem;
+  }
+
+  .proof-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .proof-card {
+    position: relative;
+    min-height: 0;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #231f1a;
+    border: 1px solid rgba(203,178,131,0.1);
+  }
+
+  .proof-image {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    display: block;
+  }
+
+  .proof-caption {
+    position: absolute;
+    inset: auto 0 0 0;
+    padding: 1rem 1rem 0.9rem;
+    background: linear-gradient(to top, rgba(26,24,20,0.92), rgba(26,24,20,0.08));
+  }
+
+  .proof-tag {
+    display: inline-block;
+    font-size: 0.62rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.35rem;
+  }
+
+  .proof-detail {
+    font-size: 0.8rem;
+    color: rgba(250,249,245,0.82);
+    line-height: 1.45;
+  }
+
   /* ── GALLERY ── */
   .gallery {
     padding: var(--section-pad) 0 0;
@@ -1421,6 +1592,9 @@ const reels = [
     .services-grid { grid-template-columns: 1fr; }
     .service-card { border-bottom: 1px solid rgba(203,178,131,0.08); }
 
+    .proof-header { grid-template-columns: 1fr; }
+    .proof-grid { grid-template-columns: 1fr 1fr; }
+
     .contact-grid { grid-template-columns: 1fr; }
 
     .reels-header { flex-direction: column; align-items: flex-start; }
@@ -1431,6 +1605,7 @@ const reels = [
   @media (max-width: 480px) {
     .hero-title { font-size: clamp(2.5rem, 11vw, 4rem); }
     .pricing-grid { grid-template-columns: 1fr; }
+    .proof-grid { grid-template-columns: 1fr; }
   }
 </style>
 
