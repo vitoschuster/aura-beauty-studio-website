@@ -9,13 +9,10 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "generate-types": "wrangler types",
-    "deploy": "astro build && wrangler pages deploy dist --project-name aura-beauty-studio"
+    "astro": "astro"
   },
   "dependencies": {
-    "astro": "^6.1.2",
-    "wrangler": "^4.79.0"
+    "astro": "^6.1.2"
   },
   "overrides": {
     "vite": "^7"
