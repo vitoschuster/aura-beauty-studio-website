@@ -404,14 +404,15 @@ const reels = [
       <button class="nav-toggle" id="navToggle" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#o-nama">O Nama</a></li>
-        <li><a href="#usluge">Usluge</a></li>
-        <li><a href="#galerija">Galerija</a></li>
-        <li><a href="#cjenik">Cjenik</a></li>
-        <li><a href="#kontakt" class="nav-cta">Rezerviraj</a></li>
-      </ul>
     </nav>
+    <!-- nav-links lives outside <nav> so backdrop-filter on nav doesn't make it a fixed containing block -->
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#o-nama">O Nama</a></li>
+      <li><a href="#usluge">Usluge</a></li>
+      <li><a href="#galerija">Galerija</a></li>
+      <li><a href="#cjenik">Cjenik</a></li>
+      <li><a href="#kontakt" class="nav-cta">Rezerviraj</a></li>
+    </ul>
 
     <!-- HERO -->
     <section class="hero" id="hero">
