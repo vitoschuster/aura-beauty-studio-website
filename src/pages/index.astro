@@ -915,7 +915,19 @@ const reels = [
     width: 24px;
     height: 1.5px;
     background: var(--gold);
-    transition: all 0.3s;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform-origin: center;
+  }
+
+  .nav-toggle.open span:nth-child(1) {
+    transform: translateY(6.5px) rotate(45deg);
+  }
+  .nav-toggle.open span:nth-child(2) {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  .nav-toggle.open span:nth-child(3) {
+    transform: translateY(-6.5px) rotate(-45deg);
   }
 
   /* ── HERO ── */
@@ -926,7 +938,7 @@ const reels = [
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    padding: 8rem 1.5rem 4rem;
+    padding: 8rem 1.5rem 9rem;
   }
 
   .hero-bg {
@@ -1663,11 +1675,15 @@ const reels = [
   const links = document.getElementById('navLinks');
   toggle?.addEventListener('click', () => {
     links?.classList.toggle('open');
+    toggle.classList.toggle('open');
   });
 
   // Close nav on link click (mobile)
   links?.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => links.classList.remove('open'));
+    link.addEventListener('click', () => {
+      links.classList.remove('open');
+      toggle?.classList.remove('open');
+    });
   });
 
   // Drag-to-scroll for gallery and reels
