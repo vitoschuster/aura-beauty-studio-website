@@ -879,9 +879,15 @@ const reels = [
   }
 
   .nav-links {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: auto;
     display: flex;
     align-items: center;
     gap: 2rem;
+    padding: 1.25rem clamp(1.5rem, 5vw, 3rem);
+    z-index: 1000;
   }
 
   .nav-links a {
