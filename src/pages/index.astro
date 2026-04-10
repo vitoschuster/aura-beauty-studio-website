@@ -856,7 +856,7 @@ const reels = [
   .nav {
     position: fixed;
     top: 0; left: 0; right: 0;
-    z-index: 100;
+    z-index: 1000;
     padding: 1.25rem clamp(1.5rem, 5vw, 3rem);
     display: flex;
     align-items: center;
@@ -1619,7 +1619,7 @@ const reels = [
       top: 0; right: 0; bottom: 0;
       width: 80%;
       max-width: 320px;
-      background: rgba(26,24,20,0.97);
+      background: rgba(26,24,20,0.99);
       backdrop-filter: blur(20px);
       flex-direction: column;
       align-items: flex-start;
@@ -1629,6 +1629,7 @@ const reels = [
       transform: translateX(110%);
       transition: transform 0.35s ease;
       border-left: 1px solid rgba(203,178,131,0.12);
+      z-index: 999;
     }
 
     .nav-links.open { transform: translateX(0); }
