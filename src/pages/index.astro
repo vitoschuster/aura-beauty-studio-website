@@ -1,4 +1,7 @@
 ---
+import pricing from '../data/pricing.json';
+import priceLists from '../data/price-lists.json';
+
 const services = [
   {
     icon: "✦",
@@ -32,177 +35,16 @@ const services = [
   },
 ];
 
-const priceCategories = [
-  {
-    name: "Masaže",
-    items: [
-      { name: "Relax masaža (30 min)", price: "15€" },
-      { name: "Anticelulitna masaža", price: "20€" },
-      { name: "Maderoterapija (30 min)", price: "20€" },
-      { name: "Čokoladna masaža (40 min)", price: "30€" },
-      { name: "Medicinska masaža (cijelo tijelo)", price: "35€" },
-      { name: "Masaža lica, vrata i dekoltea (30 min)", price: "40€" },
-      { name: "Masaža ruku (15 min)", price: "10€" },
-    ],
-  },
-  {
-    name: "Masaže — paketi",
-    items: [
-      { name: "5× antistresna masaža (vrat + leđa, 20 min)", price: "80€" },
-      { name: "5× anticelulitna masaža (20 min)", price: "90€" },
-      { name: "5× klasična masaža (30 min)", price: "150€" },
-      { name: "5× Aura masaža (40 min)", price: "180€" },
-    ],
-  },
-  {
-    name: "Maderoterapija — paketi",
-    items: [
-      { name: "Noge + guza (30 min) — paket 5×", price: "100€" },
-      { name: "Noge + guza (30 min) — paket 10×", price: "190€" },
-      { name: "Noge + guza + trbuh (45 min) — paket 5×", price: "130€" },
-      { name: "Noge + guza + trbuh (45 min) — paket 10×", price: "210€" },
-      { name: "Ruke + lice (20 min) — paket 5×", price: "70€" },
-      { name: "Ruke + lice (20 min) — paket 10×", price: "110€" },
-    ],
-  },
-  {
-    name: "LED Maska",
-    items: [
-      { name: "Skidanje make-upa + čišćenje + peeling + tretman LED maskom — 1×", price: "80€" },
-      { name: "Skidanje make-upa + čišćenje + peeling + tretman LED maskom — 5×", price: "120€" },
-      { name: "Skidanje make-upa + čišćenje + peeling + tretman LED maskom — 10×", price: "220€" },
-      { name: "Aktivna ampula + tretman LED maskom — 1×", price: "40€" },
-      { name: "Aktivna ampula + tretman LED maskom — 5×", price: "60€" },
-      { name: "Aktivna ampula + tretman LED maskom — 10×", price: "110€" },
-    ],
-  },
-  {
-    name: "Skincare",
-    items: [
-      { name: "Masaža lica (15 min)", price: "20€" },
-      { name: "Masaža lica (30 min)", price: "35€" },
-      { name: "Njega lica s maskom", price: "20€" },
-      { name: "Ampula za lice", price: "15€" },
-      { name: "LED maska", price: "30€" },
-      { name: "Aura masaža (30 min)", price: "40€" },
-      { name: "Derma pen", price: "70€" },
-      { name: "Mezoterapija bez igle", price: "40€" },
-      { name: "Botox bez igle", price: "50€" },
-      { name: "Dubinska hidratantna njega (60 min)", price: "70€" },
-      { name: "Vitamin C tretman / protiv hiperpigmentacije (50 min)", price: "50€" },
-      { name: "Hidratantna terapija (45 min)", price: "40€" },
-      { name: "Pure Gold tretman (60 min)", price: "60€" },
-      { name: "\"Basic\" njega normalne/mješovite kože (50 min)", price: "60€" },
-    ],
-  },
-  {
-    name: "Skincare — paketi",
-    items: [
-      { name: "Kemijski piling — paket 5×", price: "120€" },
-      { name: "Vitamin C (50 min) — paket 4×", price: "180€" },
-      { name: "Lifting tretman (45 min) — paket 4×", price: "130€" },
-      { name: "Pure Gold — paket 3×", price: "150€" },
-      { name: "Tretman područja s maskom + Pure Gold Oil — 1×", price: "80€" },
-      { name: "Tretman područja s maskom + Pure Gold Oil — paket 5×", price: "350€" },
-      { name: "Koža oštećena suncem — eksfolijacija (60 min) — 1×", price: "140€" },
-      { name: "Koža oštećena suncem — eksfolijacija (60 min) — paket 5×", price: "600€" },
-      { name: "RF tretman (30 min) — 1×", price: "80€" },
-      { name: "RF tretman (30 min) — paket 5×", price: "250€" },
-      { name: "Mezoterapija bez igle (60 min) Vitamin C + antiage — 1×", price: "100€" },
-      { name: "Mezoterapija bez igle (60 min) Vitamin C + antiage — paket 3×", price: "280€" },
-      { name: "Tretman hranjenja kože + čišćenje lica (45 min) — 1×", price: "80€" },
-      { name: "Tretman hranjenja kože + čišćenje lica (45 min) — paket 4×", price: "350€" },
-      { name: "Tretman obnavljanja i oksigenacije kože (45 min) — 1×", price: "110€" },
-      { name: "Tretman obnavljanja i oksigenacije kože (45 min) — paket 3×", price: "300€" },
-      { name: "Tretman osjetljive kože (60 min) — 1×", price: "100€" },
-      { name: "Tretman osjetljive kože (60 min) — paket 4×", price: "350€" },
-    ],
-  },
-  {
-    name: "Nokti i njega stopala",
-    items: [
-      { name: "Trajni lak s manikurom", price: "25€" },
-      { name: "Manikura + lakiranje (obični lak)", price: "20€" },
-      { name: "Lakiranje (obični lak)", price: "11€" },
-      { name: "Manikura", price: "15€" },
-      { name: "Skidanje tuđeg trajnog laka", price: "10€" },
-      { name: "Trajni lak + skidanje tuđeg trajnog laka", price: "27€" },
-      { name: "Trajni lak na nogama", price: "20€" },
-      { name: "Peeling stopala", price: "10€" },
-      { name: "Njega stopala", price: "25€" },
-      { name: "Njega stopala + trajni lak", price: "35€" },
-      { name: "Njega stopala + parafinska kupka + trajni lak", price: "50€" },
-      { name: "Parafinska kupka (noge)", price: "15€" },
-      { name: "Muška kombinirana manikura", price: "20€" },
-      { name: "Parafinska kupka (ruke)", price: "12€" },
-      { name: "Parafinska kupka + manikura", price: "20€" },
-      { name: "Parafinska kupka + manikura + trajni lak", price: "40€" },
-      { name: "Callux pedikura + trajni lak", price: "45€" },
-      { name: "Callux pedikura", price: "35€" },
-    ],
-  },
-  {
-    name: "Depilacija",
-    items: [
-      { name: "Cijele noge", price: "30€" },
-      { name: "Cijele ruke", price: "15€" },
-      { name: "Bikini", price: "12€" },
-      { name: "Podkoljenice", price: "15€" },
-      { name: "Podlaktice", price: "8€" },
-      { name: "Pazuh", price: "10€" },
-      { name: "Nadusnice", price: "5€" },
-      { name: "Brada", price: "6€" },
-      { name: "Leđa", price: "15€" },
-      { name: "Trbuh", price: "12€" },
-      { name: "Cijele noge + bikini", price: "40€" },
-      { name: "Podkoljenice + bikini", price: "25€" },
-      { name: "Brazilska", price: "25€" },
-      { name: "Brazilska + bikini", price: "35€" },
-    ],
-  },
-  {
-    name: "Head Spa tretmani",
-    items: [
-      { name: "Head Spa De Luxe", price: "120€" },
-      { name: "Head Spa Platinum", price: "140€" },
-      { name: "Inhalacija dišnih puteva i lica (morska sol)", price: "15€" },
-      { name: "Inhalacija dišnih puteva i lica (eterična ulja)", price: "20€" },
-      { name: "Head Spa by Aura", price: "55€" },
-    ],
-  },
-  {
-    name: "Ljepota očiju",
-    items: [
-      { name: "Brow lift", price: "28€" },
-      { name: "Lash lift", price: "30€" },
-      { name: "Lash & brow lift", price: "50€" },
-      { name: "Skidanje trepavica", price: "10€" },
-      { name: "Obrve — korekcija", price: "7€" },
-      { name: "Obrve — bojanje", price: "7€" },
-    ],
-  },
-  {
-    name: "Botox (bez igle) Aura — paketi",
-    items: [
-      { name: "1× tretman", price: "100€" },
-      { name: "5× tretmana", price: "300€" },
-      { name: "10× tretmana", price: "600€" },
-    ],
-  },
-  {
-    name: "Edukacije",
-    items: [
-      { name: "Maderoterapija — edukacija", price: "350€" },
-      { name: "Derma pen — edukacija", price: "250€" },
-    ],
-  },
-  {
-    name: "Poklon bonovi",
-    items: [
-      { name: "Po dogovoru", price: "" },
-    ],
-  },
-];
+type PriceService = {
+  name: string;
+  displayName?: string;
+  price: string;
+  anchorPrice: string;
+  group?: { name: string; details: string[]; renderHeading?: boolean };
+};
+type PriceCategory = { id: string; label: string; services: PriceService[] };
+const priceCategories: PriceCategory[] = pricing.categories;
+const latestPriceList = priceLists.lists[0];
 
 const heroImage = {
   src: "/studio/IMG_6978.jpg",
@@ -661,20 +503,57 @@ const reels = [
         <div class="section-header center">
           <p class="section-label">Cjenik</p>
           <h2 class="section-title">Transparentne<br/><em>cijene</em></h2>
-          <p class="pricing-note">Sve cijene su u eurima (€). Za pakete i posebne ponude kontaktirajte nas.</p>
+          <p class="pricing-note">Sve cijene su u eurima (€). Sidrene cijene vrijede na dan {pricing.anchorDateLabel}</p>
+          <div class="pricing-downloads">
+            <a href="/cjenici/aura-cjenik.pdf" download>Preuzmi cjenik (PDF)</a>
+            <a href={latestPriceList.url} download>Preuzmi cjenik (CSV)</a>
+          </div>
+          {priceLists.lists.length > 1 && (
+            <details class="pricing-archive">
+              <summary>Arhiva cjenika</summary>
+              <ul>
+                {priceLists.lists.slice(1).map((list) => (
+                  <li><a href={list.url} download>Cjenik — {list.publishedDateLabel} ({list.filename})</a></li>
+                ))}
+              </ul>
+            </details>
+          )}
         </div>
         <div class="pricing-grid">
           {priceCategories.map((cat) => (
             <div class="pricing-card">
-              <h3 class="pricing-cat">{cat.name}</h3>
-              <ul class="pricing-list">
-                {cat.items.map((item) => (
-                  <li class="pricing-row">
-                    <span class="pricing-item-name">{item.name}</span>
-                    <span class="pricing-item-price">{item.price}</span>
-                  </li>
-                ))}
-              </ul>
+              <h3 class="pricing-cat" id={`pricing-${cat.id}`}>{cat.label}</h3>
+              <table class="pricing-table" aria-labelledby={`pricing-${cat.id}`}>
+                <colgroup><col/><col class="pricing-current-col"/><col class="pricing-anchor-col"/></colgroup>
+                <thead>
+                  <tr>
+                    <th scope="col">Usluga</th>
+                    <th scope="col">Aktualna cijena</th>
+                    <th scope="col">Sidrena cijena<time datetime={pricing.anchorDate}>{pricing.anchorDateLabel}</time></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {cat.services.map((item, i) => (
+                    <Fragment>
+                      {item.group && item.group.renderHeading !== false && item.group.name !== cat.services[i - 1]?.group?.name && (
+                        <tr class="pricing-group-row">
+                          <td colspan="3">
+                            <span>{item.group.name}</span>
+                            {item.group.details.length > 0 && (
+                              <ul class="pricing-inclusions">{item.group.details.map((detail) => <li>{detail}</li>)}</ul>
+                            )}
+                          </td>
+                        </tr>
+                      )}
+                      <tr class="pricing-row">
+                        <td class="pricing-item-name" aria-label={item.name}>{item.displayName ?? item.name}</td>
+                        <td class="pricing-item-price">{item.price}</td>
+                        <td class="pricing-item-price pricing-item-anchor">{item.anchorPrice}</td>
+                      </tr>
+                    </Fragment>
+                  ))}
+                </tbody>
+              </table>
             </div>
           ))}
         </div>
@@ -1436,14 +1315,14 @@ const reels = [
 
   .pricing-note {
     font-size: 0.8rem;
-    color: rgba(250,249,245,0.45);
+    color: rgba(250,249,245,0.72);
     letter-spacing: 0.04em;
     margin-top: 1rem;
   }
 
   .pricing-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 28rem), 1fr));
     gap: 1px;
     background: rgba(203,178,131,0.08);
     border: 1px solid rgba(203,178,131,0.08);
@@ -1451,7 +1330,7 @@ const reels = [
   }
 
   .pricing-card {
-    padding: clamp(1.75rem, 3vw, 2.5rem);
+    padding: clamp(0.75rem, 3vw, 2.5rem);
     background: var(--dark);
   }
 
@@ -1467,21 +1346,56 @@ const reels = [
     border-bottom: 1px solid rgba(203,178,131,0.15);
   }
 
-  .pricing-list { display: flex; flex-direction: column; gap: 0.6rem; }
+  .pricing-downloads {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem 1.5rem;
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+    color: var(--gold);
+  }
+
+  .pricing-downloads a, .pricing-archive a {
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
+  }
+
+  .pricing-archive { margin-top: 1rem; font-size: 0.75rem; color: var(--gold); }
+  .pricing-archive summary { cursor: pointer; }
+  .pricing-archive ul { margin-top: 0.75rem; }
+  .pricing-archive li { margin-top: 0.5rem; overflow-wrap: anywhere; }
+
+  .pricing-table { width: 100%; table-layout: fixed; border-collapse: collapse; }
+  .pricing-current-col { width: 5rem; }
+  .pricing-anchor-col { width: 6.5rem; }
+  .pricing-table thead th {
+    padding: 0 0 0.75rem 0.25rem;
+    font-size: 0.6rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: right;
+    text-transform: uppercase;
+    color: var(--gold);
+    vertical-align: top;
+    border-bottom: 1px solid rgba(203,178,131,0.15);
+  }
+  .pricing-table thead th:first-child { text-align: left; padding-left: 0; }
+  .pricing-table time { display: block; margin-top: 0.25rem; font-size: 0.58rem; white-space: nowrap; }
 
   .pricing-row {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: 1rem;
     font-size: 0.82rem;
   }
+
+  .pricing-row td { padding: 0.5rem 0; vertical-align: top; }
 
   .pricing-item-name {
     color: rgba(250,249,245,0.72);
     font-weight: 300;
     line-height: 1.4;
-    flex: 1;
+    padding-right: 0.5rem !important;
+    overflow-wrap: anywhere;
   }
 
   .pricing-item-price {
@@ -1489,7 +1403,13 @@ const reels = [
     font-weight: 500;
     white-space: nowrap;
     font-variant-numeric: tabular-nums;
+    text-align: right;
+    padding-left: 0.25rem !important;
   }
+
+  .pricing-item-anchor { font-weight: 300; color: rgba(250,249,245,0.78); }
+  .pricing-group-row td { padding: 1rem 0 0.25rem; text-align: left; font-size: 0.8rem; font-weight: 500; line-height: 1.5; }
+  .pricing-inclusions { margin-top: 0.35rem; color: rgba(250,249,245,0.72); font-size: 0.75rem; font-weight: 300; }
 
   /* ── CONTACT ── */
   .contact {
@@ -1670,7 +1590,11 @@ const reels = [
 
   @media (max-width: 480px) {
     .hero-title { font-size: clamp(2.5rem, 11vw, 4rem); }
+    .pricing .section-title { font-size: clamp(1.7rem, 8vw, 2.2rem); }
     .pricing-grid { grid-template-columns: 1fr; }
+    .pricing-current-col { width: 4rem; }
+    .pricing-anchor-col { width: 5rem; }
+    .pricing-row { font-size: 0.75rem; }
     .proof-grid { grid-template-columns: 1fr; }
   }
 </style>

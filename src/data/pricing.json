@@ -1,0 +1,791 @@
+{
+  "anchorDate": "2026-09-10",
+  "anchorDateLabel": "10. 9. 2026.",
+  "categories": [
+    {
+      "id": "masaze",
+      "label": "MASAŽE",
+      "services": [
+        {
+          "name": "Relax masaža (30 min)",
+          "price": "15€",
+          "anchorPrice": "15€"
+        },
+        {
+          "name": "Anticelulitna masaža",
+          "price": "20€",
+          "anchorPrice": "20€"
+        },
+        {
+          "name": "Maderoterapija (30 min)",
+          "price": "20€",
+          "anchorPrice": "20€"
+        },
+        {
+          "name": "Čokoladna masaža (40 min)",
+          "price": "30€",
+          "anchorPrice": "30€"
+        },
+        {
+          "name": "Medicinska masaža (30 min)",
+          "price": "25€",
+          "anchorPrice": "25€"
+        },
+        {
+          "name": "Medicinska masaža (45 min)",
+          "price": "35€",
+          "anchorPrice": "35€"
+        },
+        {
+          "name": "Medicinska masaža (60 min)",
+          "price": "45€",
+          "anchorPrice": "45€"
+        },
+        {
+          "name": "Masaža lica, vrata i dekoltea (30 min)",
+          "price": "40€",
+          "anchorPrice": "40€"
+        },
+        {
+          "name": "Masaža ruku (15 min)",
+          "price": "10€",
+          "anchorPrice": "10€"
+        }
+      ]
+    },
+    {
+      "id": "masaze-paketi",
+      "label": "MASAŽE - PAKETI",
+      "services": [
+        {
+          "name": "5× antistresna masaža (vrat + leđa, 20 min)",
+          "price": "80€",
+          "anchorPrice": "80€"
+        },
+        {
+          "name": "5× anticelulitna masaža (20 min)",
+          "price": "90€",
+          "anchorPrice": "90€"
+        },
+        {
+          "name": "5× klasična masaža (30 min)",
+          "price": "150€",
+          "anchorPrice": "150€"
+        },
+        {
+          "name": "5× Aura masaža (40 min)",
+          "price": "180€",
+          "anchorPrice": "180€"
+        }
+      ]
+    },
+    {
+      "id": "maderoterapija-paketi",
+      "label": "MADEROTERAPIJA - PAKETI",
+      "services": [
+        {
+          "name": "Noge + guza (30 min) — Paket 5×",
+          "displayName": "Paket 5×",
+          "price": "100€",
+          "anchorPrice": "100€",
+          "group": {
+            "name": "Noge + guza (30 min)",
+            "details": []
+          }
+        },
+        {
+          "name": "Noge + guza (30 min) — Paket 10×",
+          "displayName": "Paket 10×",
+          "price": "190€",
+          "anchorPrice": "190€",
+          "group": {
+            "name": "Noge + guza (30 min)",
+            "details": []
+          }
+        },
+        {
+          "name": "Noge + guza + trbuh (45 min) — Paket 5×",
+          "displayName": "Paket 5×",
+          "price": "130€",
+          "anchorPrice": "130€",
+          "group": {
+            "name": "Noge + guza + trbuh (45 min)",
+            "details": []
+          }
+        },
+        {
+          "name": "Noge + guza + trbuh (45 min) — Paket 10×",
+          "displayName": "Paket 10×",
+          "price": "210€",
+          "anchorPrice": "210€",
+          "group": {
+            "name": "Noge + guza + trbuh (45 min)",
+            "details": []
+          }
+        },
+        {
+          "name": "Ruke + lice (20 min) — Paket 5×",
+          "displayName": "Paket 5×",
+          "price": "70€",
+          "anchorPrice": "70€",
+          "group": {
+            "name": "Ruke + lice (20 min)",
+            "details": []
+          }
+        },
+        {
+          "name": "Ruke + lice (20 min) — Paket 10×",
+          "displayName": "Paket 10×",
+          "price": "110€",
+          "anchorPrice": "110€",
+          "group": {
+            "name": "Ruke + lice (20 min)",
+            "details": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "led-maska",
+      "label": "LED MASKA",
+      "services": [
+        {
+          "name": "Skidanje make-upa + čišćenje + peeling + tretman LED maskom",
+          "price": "80€",
+          "anchorPrice": "80€",
+          "group": {
+            "name": "Skidanje make-upa + čišćenje + peeling + tretman LED maskom",
+            "details": [],
+            "renderHeading": false
+          }
+        },
+        {
+          "name": "Skidanje make-upa + čišćenje + peeling + tretman LED maskom — Paket 5×",
+          "displayName": "Paket 5×",
+          "price": "120€",
+          "anchorPrice": "120€",
+          "group": {
+            "name": "Skidanje make-upa + čišćenje + peeling + tretman LED maskom",
+            "details": [],
+            "renderHeading": false
+          }
+        },
+        {
+          "name": "Skidanje make-upa + čišćenje + peeling + tretman LED maskom — Paket 10×",
+          "displayName": "Paket 10×",
+          "price": "220€",
+          "anchorPrice": "220€",
+          "group": {
+            "name": "Skidanje make-upa + čišćenje + peeling + tretman LED maskom",
+            "details": [],
+            "renderHeading": false
+          }
+        },
+        {
+          "name": "Aktivna ampula + tretman LED maskom",
+          "price": "40€",
+          "anchorPrice": "40€",
+          "group": {
+            "name": "Aktivna ampula + tretman LED maskom",
+            "details": [],
+            "renderHeading": false
+          }
+        },
+        {
+          "name": "Aktivna ampula + tretman LED maskom — Paket 5×",
+          "displayName": "Paket 5×",
+          "price": "60€",
+          "anchorPrice": "60€",
+          "group": {
+            "name": "Aktivna ampula + tretman LED maskom",
+            "details": [],
+            "renderHeading": false
+          }
+        },
+        {
+          "name": "Aktivna ampula + tretman LED maskom — Paket 10×",
+          "displayName": "Paket 10×",
+          "price": "110€",
+          "anchorPrice": "110€",
+          "group": {
+            "name": "Aktivna ampula + tretman LED maskom",
+            "details": [],
+            "renderHeading": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "nokti-i-njega-stopala",
+      "label": "NOKTI I NJEGA STOPALA",
+      "services": [
+        {
+          "name": "Manikura + trajni lak",
+          "price": "28€",
+          "anchorPrice": "28€"
+        },
+        {
+          "name": "Manikura + lakiranje (obični lak)",
+          "price": "20€",
+          "anchorPrice": "20€"
+        },
+        {
+          "name": "Lakiranje (obični lak)",
+          "price": "11€",
+          "anchorPrice": "11€"
+        },
+        {
+          "name": "Manikura",
+          "price": "15€",
+          "anchorPrice": "15€"
+        },
+        {
+          "name": "Skidanje tuđeg trajnog laka",
+          "price": "10€",
+          "anchorPrice": "10€"
+        },
+        {
+          "name": "Manikura + trajni lak + skidanje tuđeg rada",
+          "price": "32€",
+          "anchorPrice": "32€"
+        },
+        {
+          "name": "Trajni lak na nogama",
+          "price": "20€",
+          "anchorPrice": "20€"
+        },
+        {
+          "name": "Peeling stopala",
+          "price": "10€",
+          "anchorPrice": "10€"
+        },
+        {
+          "name": "Njega stopala",
+          "price": "25€",
+          "anchorPrice": "25€"
+        },
+        {
+          "name": "Njega stopala + trajni lak",
+          "price": "35€",
+          "anchorPrice": "35€"
+        },
+        {
+          "name": "Njega stopala + parafinska kupka + trajni lak",
+          "price": "50€",
+          "anchorPrice": "50€"
+        },
+        {
+          "name": "Parafinska kupka (noge)",
+          "price": "15€",
+          "anchorPrice": "15€"
+        },
+        {
+          "name": "Muška kombinirana manikura",
+          "price": "20€",
+          "anchorPrice": "20€"
+        },
+        {
+          "name": "Parafinska kupka (ruke)",
+          "price": "12€",
+          "anchorPrice": "12€"
+        },
+        {
+          "name": "Parafinska kupka + manikura",
+          "price": "20€",
+          "anchorPrice": "20€"
+        },
+        {
+          "name": "Parafinska kupka + manikura + trajni lak",
+          "price": "40€",
+          "anchorPrice": "40€"
+        }
+      ]
+    },
+    {
+      "id": "skincare",
+      "label": "SKINCARE",
+      "services": [
+        {
+          "name": "Masaža lica (15 min)",
+          "price": "20€",
+          "anchorPrice": "20€"
+        },
+        {
+          "name": "Masaža lica (30 min)",
+          "price": "35€",
+          "anchorPrice": "35€"
+        },
+        {
+          "name": "Njega lica s maskom",
+          "price": "20€",
+          "anchorPrice": "20€"
+        },
+        {
+          "name": "Ampula za lice",
+          "price": "15€",
+          "anchorPrice": "15€"
+        },
+        {
+          "name": "LED maska",
+          "price": "30€",
+          "anchorPrice": "30€"
+        },
+        {
+          "name": "Aura masaža (30 min)",
+          "price": "40€",
+          "anchorPrice": "40€"
+        },
+        {
+          "name": "Derma pen",
+          "price": "70€",
+          "anchorPrice": "70€"
+        },
+        {
+          "name": "Mezoterapija bez igle",
+          "price": "40€",
+          "anchorPrice": "40€"
+        },
+        {
+          "name": "Botox bez igle",
+          "price": "50€",
+          "anchorPrice": "50€"
+        },
+        {
+          "name": "Dubinska hidratantna njega (60 min)",
+          "price": "70€",
+          "anchorPrice": "70€"
+        },
+        {
+          "name": "Vitamin C tretman / protiv hiperpigmentacije (50 min)",
+          "price": "50€",
+          "anchorPrice": "50€"
+        },
+        {
+          "name": "Hidratantna terapija (45 min)",
+          "price": "40€",
+          "anchorPrice": "40€"
+        },
+        {
+          "name": "Pure Gold tretman (60 min)",
+          "price": "60€",
+          "anchorPrice": "60€"
+        },
+        {
+          "name": "“Basic” njega normalne/mješovite kože (50 min)",
+          "price": "60€",
+          "anchorPrice": "60€"
+        }
+      ]
+    },
+    {
+      "id": "skincare-paketi",
+      "label": "SKINCARE - PAKETI",
+      "services": [
+        {
+          "name": "Kemijski piling - paket 5×",
+          "price": "120€",
+          "anchorPrice": "120€"
+        },
+        {
+          "name": "Vitamin C (50 min) - paket 4×",
+          "price": "180€",
+          "anchorPrice": "180€"
+        },
+        {
+          "name": "Lifting tretman (45 min) - paket 4×",
+          "price": "130€",
+          "anchorPrice": "130€"
+        },
+        {
+          "name": "Pure Gold - paket 3×",
+          "price": "150€",
+          "anchorPrice": "150€"
+        },
+        {
+          "name": "Tretman područja s maskom (30 min) + Pure Gold Oil — 1×",
+          "displayName": "1×",
+          "price": "80€",
+          "anchorPrice": "80€",
+          "group": {
+            "name": "Tretman područja s maskom (30 min) + Pure Gold Oil",
+            "details": []
+          }
+        },
+        {
+          "name": "Tretman područja s maskom (30 min) + Pure Gold Oil — Paket 5×",
+          "displayName": "Paket 5×",
+          "price": "350€",
+          "anchorPrice": "350€",
+          "group": {
+            "name": "Tretman područja s maskom (30 min) + Pure Gold Oil",
+            "details": []
+          }
+        },
+        {
+          "name": "Koža oštećena suncem - eksfolijacija (60 min) — 1×",
+          "displayName": "1×",
+          "price": "140€",
+          "anchorPrice": "140€",
+          "group": {
+            "name": "Koža oštećena suncem - eksfolijacija (60 min)",
+            "details": [
+              "+ X-Shot",
+              "+ Caviar ampula",
+              "+ Clay Lavender maska",
+              "+ Vita Derma krema"
+            ]
+          }
+        },
+        {
+          "name": "Koža oštećena suncem - eksfolijacija (60 min) — Paket 5×",
+          "displayName": "Paket 5×",
+          "price": "600€",
+          "anchorPrice": "600€",
+          "group": {
+            "name": "Koža oštećena suncem - eksfolijacija (60 min)",
+            "details": [
+              "+ X-Shot",
+              "+ Caviar ampula",
+              "+ Clay Lavender maska",
+              "+ Vita Derma krema"
+            ]
+          }
+        },
+        {
+          "name": "RF tretman (30 min) — 1×",
+          "displayName": "1×",
+          "price": "80€",
+          "anchorPrice": "80€",
+          "group": {
+            "name": "RF tretman (30 min)",
+            "details": [
+              "+ X-Shot",
+              "+ Vita Derma krema"
+            ]
+          }
+        },
+        {
+          "name": "RF tretman (30 min) — Paket 5×",
+          "displayName": "Paket 5×",
+          "price": "250€",
+          "anchorPrice": "250€",
+          "group": {
+            "name": "RF tretman (30 min)",
+            "details": [
+              "+ X-Shot",
+              "+ Vita Derma krema"
+            ]
+          }
+        },
+        {
+          "name": "Mezoterapija bez igle (60 min) Vitamin C linija + anti-age tretman — 1×",
+          "displayName": "1×",
+          "price": "100€",
+          "anchorPrice": "100€",
+          "group": {
+            "name": "Mezoterapija bez igle (60 min) Vitamin C linija + anti-age tretman",
+            "details": []
+          }
+        },
+        {
+          "name": "Mezoterapija bez igle (60 min) Vitamin C linija + anti-age tretman — Paket 3×",
+          "displayName": "Paket 3×",
+          "price": "280€",
+          "anchorPrice": "280€",
+          "group": {
+            "name": "Mezoterapija bez igle (60 min) Vitamin C linija + anti-age tretman",
+            "details": []
+          }
+        },
+        {
+          "name": "Tretman hranjenja kože + čišćenje lica (45 min) — 1×",
+          "displayName": "1×",
+          "price": "80€",
+          "anchorPrice": "80€",
+          "group": {
+            "name": "Tretman hranjenja kože + čišćenje lica (45 min)",
+            "details": [
+              "+ maska med",
+              "+ hranjiva ampula",
+              "+ hijaluron krema"
+            ]
+          }
+        },
+        {
+          "name": "Tretman hranjenja kože + čišćenje lica (45 min) — Paket 4×",
+          "displayName": "Paket 4×",
+          "price": "350€",
+          "anchorPrice": "350€",
+          "group": {
+            "name": "Tretman hranjenja kože + čišćenje lica (45 min)",
+            "details": [
+              "+ maska med",
+              "+ hranjiva ampula",
+              "+ hijaluron krema"
+            ]
+          }
+        },
+        {
+          "name": "Tretman obnavljanja i oksigenacije kože (45 min) — 1×",
+          "displayName": "1×",
+          "price": "110€",
+          "anchorPrice": "110€",
+          "group": {
+            "name": "Tretman obnavljanja i oksigenacije kože (45 min)",
+            "details": [
+              "+ Aloe Vera maska",
+              "+ Oxygen Shot",
+              "+ Hydro Control krema"
+            ]
+          }
+        },
+        {
+          "name": "Tretman obnavljanja i oksigenacije kože (45 min) — Paket 3×",
+          "displayName": "Paket 3×",
+          "price": "300€",
+          "anchorPrice": "300€",
+          "group": {
+            "name": "Tretman obnavljanja i oksigenacije kože (45 min)",
+            "details": [
+              "+ Aloe Vera maska",
+              "+ Oxygen Shot",
+              "+ Hydro Control krema"
+            ]
+          }
+        },
+        {
+          "name": "Tretman osjetljive kože (60 min) — 1×",
+          "displayName": "1×",
+          "price": "100€",
+          "anchorPrice": "100€",
+          "group": {
+            "name": "Tretman osjetljive kože (60 min)",
+            "details": [
+              "+ Clay + Honey maska",
+              "+ B5 Boost Shot",
+              "+ Lipo-peptid krema"
+            ]
+          }
+        },
+        {
+          "name": "Tretman osjetljive kože (60 min) — Paket 4×",
+          "displayName": "Paket 4×",
+          "price": "350€",
+          "anchorPrice": "350€",
+          "group": {
+            "name": "Tretman osjetljive kože (60 min)",
+            "details": [
+              "+ Clay + Honey maska",
+              "+ B5 Boost Shot",
+              "+ Lipo-peptid krema"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "depilacija",
+      "label": "DEPILACIJA",
+      "services": [
+        {
+          "name": "Cijele noge",
+          "price": "30€",
+          "anchorPrice": "30€"
+        },
+        {
+          "name": "Cijele ruke",
+          "price": "15€",
+          "anchorPrice": "15€"
+        },
+        {
+          "name": "Bikini",
+          "price": "12€",
+          "anchorPrice": "12€"
+        },
+        {
+          "name": "Podkoljenice",
+          "price": "15€",
+          "anchorPrice": "15€"
+        },
+        {
+          "name": "Podlaktice",
+          "price": "8€",
+          "anchorPrice": "8€"
+        },
+        {
+          "name": "Pazuh",
+          "price": "10€",
+          "anchorPrice": "10€"
+        },
+        {
+          "name": "Nadusnice",
+          "price": "5€",
+          "anchorPrice": "5€"
+        },
+        {
+          "name": "Brada",
+          "price": "6€",
+          "anchorPrice": "6€"
+        },
+        {
+          "name": "Leđa",
+          "price": "15€",
+          "anchorPrice": "15€"
+        },
+        {
+          "name": "Trbuh",
+          "price": "12€",
+          "anchorPrice": "12€"
+        },
+        {
+          "name": "Cijele noge + bikini",
+          "price": "40€",
+          "anchorPrice": "40€"
+        },
+        {
+          "name": "Podkoljenice + bikini",
+          "price": "25€",
+          "anchorPrice": "25€"
+        },
+        {
+          "name": "Brazilska",
+          "price": "25€",
+          "anchorPrice": "25€"
+        },
+        {
+          "name": "Brazilska + bikini",
+          "price": "35€",
+          "anchorPrice": "35€"
+        }
+      ]
+    },
+    {
+      "id": "head-spa-tretmani",
+      "label": "HEAD SPA TRETMANI",
+      "services": [
+        {
+          "name": "Head Spa De Luxe",
+          "price": "120€",
+          "anchorPrice": "120€"
+        },
+        {
+          "name": "Head Spa Platinum",
+          "price": "140€",
+          "anchorPrice": "140€"
+        },
+        {
+          "name": "Inhalacija dišnih puteva i lica (morska sol)",
+          "price": "15€",
+          "anchorPrice": "15€"
+        },
+        {
+          "name": "Inhalacija dišnih puteva i lica (eterična ulja)",
+          "price": "20€",
+          "anchorPrice": "20€"
+        },
+        {
+          "name": "Head Spa by Aura",
+          "price": "55€",
+          "anchorPrice": "55€"
+        }
+      ]
+    },
+    {
+      "id": "ljepota-ociju",
+      "label": "LJEPOTA OČIJU",
+      "services": [
+        {
+          "name": "Brow lift",
+          "price": "28€",
+          "anchorPrice": "28€"
+        },
+        {
+          "name": "Lash lift",
+          "price": "30€",
+          "anchorPrice": "30€"
+        },
+        {
+          "name": "Lash & brow lift",
+          "price": "50€",
+          "anchorPrice": "50€"
+        },
+        {
+          "name": "Skidanje trepavica",
+          "price": "10€",
+          "anchorPrice": "10€"
+        },
+        {
+          "name": "Obrve - korekcija",
+          "price": "7€",
+          "anchorPrice": "7€"
+        },
+        {
+          "name": "Obrve - bojanje",
+          "price": "7€",
+          "anchorPrice": "7€"
+        }
+      ]
+    },
+    {
+      "id": "botox-aura-paketi",
+      "label": "BOTOX AURA - PAKETI",
+      "services": [
+        {
+          "name": "1× tretman",
+          "price": "100€",
+          "anchorPrice": "100€"
+        },
+        {
+          "name": "5× tretmana",
+          "price": "300€",
+          "anchorPrice": "300€"
+        },
+        {
+          "name": "10× tretmana",
+          "price": "600€",
+          "anchorPrice": "600€"
+        }
+      ]
+    },
+    {
+      "id": "edukacije",
+      "label": "EDUKACIJE",
+      "services": [
+        {
+          "name": "Maderoterapija - edukacija",
+          "price": "350€",
+          "anchorPrice": "350€"
+        },
+        {
+          "name": "Derma pen - edukacija",
+          "price": "250€",
+          "anchorPrice": "250€"
+        }
+      ]
+    },
+    {
+      "id": "poklon-bonovi",
+      "label": "POKLON BONOVI",
+      "services": [
+        {
+          "name": "Poklon bon (50 €)",
+          "displayName": "Poklon bon",
+          "price": "50€",
+          "anchorPrice": "50€"
+        },
+        {
+          "name": "Poklon bon (100 €)",
+          "displayName": "Poklon bon",
+          "price": "100€",
+          "anchorPrice": "100€"
+        },
+        {
+          "name": "Poklon bon (200 €)",
+          "displayName": "Poklon bon",
+          "price": "200€",
+          "anchorPrice": "200€"
+        }
+      ]
+    }
+  ]
+}

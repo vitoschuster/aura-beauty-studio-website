@@ -1,0 +1,107 @@
+kategorija,naziv_usluge,opis_usluge,maloprodajna_cijena_eur,poseban_oblik_prodaje,naziv_posebnog_oblika_prodaje,sidrena_cijena_eur,datum_sidrene_cijene,valuta
+MASAŽE,Relax masaža (30 min),,15.00,false,,15.00,2026-09-10,EUR
+MASAŽE,Anticelulitna masaža,,20.00,false,,20.00,2026-09-10,EUR
+MASAŽE,Maderoterapija (30 min),,20.00,false,,20.00,2026-09-10,EUR
+MASAŽE,Čokoladna masaža (40 min),,30.00,false,,30.00,2026-09-10,EUR
+MASAŽE,Medicinska masaža (30 min),,25.00,false,,25.00,2026-09-10,EUR
+MASAŽE,Medicinska masaža (45 min),,35.00,false,,35.00,2026-09-10,EUR
+MASAŽE,Medicinska masaža (60 min),,45.00,false,,45.00,2026-09-10,EUR
+MASAŽE,"Masaža lica, vrata i dekoltea (30 min)",,40.00,false,,40.00,2026-09-10,EUR
+MASAŽE,Masaža ruku (15 min),,10.00,false,,10.00,2026-09-10,EUR
+MASAŽE - PAKETI,"5× antistresna masaža (vrat + leđa, 20 min)",,80.00,false,,80.00,2026-09-10,EUR
+MASAŽE - PAKETI,5× anticelulitna masaža (20 min),,90.00,false,,90.00,2026-09-10,EUR
+MASAŽE - PAKETI,5× klasična masaža (30 min),,150.00,false,,150.00,2026-09-10,EUR
+MASAŽE - PAKETI,5× Aura masaža (40 min),,180.00,false,,180.00,2026-09-10,EUR
+MADEROTERAPIJA - PAKETI,Noge + guza (30 min) — Paket 5×,,100.00,false,,100.00,2026-09-10,EUR
+MADEROTERAPIJA - PAKETI,Noge + guza (30 min) — Paket 10×,,190.00,false,,190.00,2026-09-10,EUR
+MADEROTERAPIJA - PAKETI,Noge + guza + trbuh (45 min) — Paket 5×,,130.00,false,,130.00,2026-09-10,EUR
+MADEROTERAPIJA - PAKETI,Noge + guza + trbuh (45 min) — Paket 10×,,210.00,false,,210.00,2026-09-10,EUR
+MADEROTERAPIJA - PAKETI,Ruke + lice (20 min) — Paket 5×,,70.00,false,,70.00,2026-09-10,EUR
+MADEROTERAPIJA - PAKETI,Ruke + lice (20 min) — Paket 10×,,110.00,false,,110.00,2026-09-10,EUR
+LED MASKA,Skidanje make-upa + čišćenje + peeling + tretman LED maskom,,80.00,false,,80.00,2026-09-10,EUR
+LED MASKA,Skidanje make-upa + čišćenje + peeling + tretman LED maskom — Paket 5×,,120.00,false,,120.00,2026-09-10,EUR
+LED MASKA,Skidanje make-upa + čišćenje + peeling + tretman LED maskom — Paket 10×,,220.00,false,,220.00,2026-09-10,EUR
+LED MASKA,Aktivna ampula + tretman LED maskom,,40.00,false,,40.00,2026-09-10,EUR
+LED MASKA,Aktivna ampula + tretman LED maskom — Paket 5×,,60.00,false,,60.00,2026-09-10,EUR
+LED MASKA,Aktivna ampula + tretman LED maskom — Paket 10×,,110.00,false,,110.00,2026-09-10,EUR
+NOKTI I NJEGA STOPALA,Manikura + trajni lak,,28.00,false,,28.00,2026-09-10,EUR
+NOKTI I NJEGA STOPALA,Manikura + lakiranje (obični lak),,20.00,false,,20.00,2026-09-10,EUR
+NOKTI I NJEGA STOPALA,Lakiranje (obični lak),,11.00,false,,11.00,2026-09-10,EUR
+NOKTI I NJEGA STOPALA,Manikura,,15.00,false,,15.00,2026-09-10,EUR
+NOKTI I NJEGA STOPALA,Skidanje tuđeg trajnog laka,,10.00,false,,10.00,2026-09-10,EUR
+NOKTI I NJEGA STOPALA,Manikura + trajni lak + skidanje tuđeg rada,,32.00,false,,32.00,2026-09-10,EUR
+NOKTI I NJEGA STOPALA,Trajni lak na nogama,,20.00,false,,20.00,2026-09-10,EUR
+NOKTI I NJEGA STOPALA,Peeling stopala,,10.00,false,,10.00,2026-09-10,EUR
+NOKTI I NJEGA STOPALA,Njega stopala,,25.00,false,,25.00,2026-09-10,EUR
+NOKTI I NJEGA STOPALA,Njega stopala + trajni lak,,35.00,false,,35.00,2026-09-10,EUR
+NOKTI I NJEGA STOPALA,Njega stopala + parafinska kupka + trajni lak,,50.00,false,,50.00,2026-09-10,EUR
+NOKTI I NJEGA STOPALA,Parafinska kupka (noge),,15.00,false,,15.00,2026-09-10,EUR
+NOKTI I NJEGA STOPALA,Muška kombinirana manikura,,20.00,false,,20.00,2026-09-10,EUR
+NOKTI I NJEGA STOPALA,Parafinska kupka (ruke),,12.00,false,,12.00,2026-09-10,EUR
+NOKTI I NJEGA STOPALA,Parafinska kupka + manikura,,20.00,false,,20.00,2026-09-10,EUR
+NOKTI I NJEGA STOPALA,Parafinska kupka + manikura + trajni lak,,40.00,false,,40.00,2026-09-10,EUR
+SKINCARE,Masaža lica (15 min),,20.00,false,,20.00,2026-09-10,EUR
+SKINCARE,Masaža lica (30 min),,35.00,false,,35.00,2026-09-10,EUR
+SKINCARE,Njega lica s maskom,,20.00,false,,20.00,2026-09-10,EUR
+SKINCARE,Ampula za lice,,15.00,false,,15.00,2026-09-10,EUR
+SKINCARE,LED maska,,30.00,false,,30.00,2026-09-10,EUR
+SKINCARE,Aura masaža (30 min),,40.00,false,,40.00,2026-09-10,EUR
+SKINCARE,Derma pen,,70.00,false,,70.00,2026-09-10,EUR
+SKINCARE,Mezoterapija bez igle,,40.00,false,,40.00,2026-09-10,EUR
+SKINCARE,Botox bez igle,,50.00,false,,50.00,2026-09-10,EUR
+SKINCARE,Dubinska hidratantna njega (60 min),,70.00,false,,70.00,2026-09-10,EUR
+SKINCARE,Vitamin C tretman / protiv hiperpigmentacije (50 min),,50.00,false,,50.00,2026-09-10,EUR
+SKINCARE,Hidratantna terapija (45 min),,40.00,false,,40.00,2026-09-10,EUR
+SKINCARE,Pure Gold tretman (60 min),,60.00,false,,60.00,2026-09-10,EUR
+SKINCARE,“Basic” njega normalne/mješovite kože (50 min),,60.00,false,,60.00,2026-09-10,EUR
+SKINCARE - PAKETI,Kemijski piling - paket 5×,,120.00,false,,120.00,2026-09-10,EUR
+SKINCARE - PAKETI,Vitamin C (50 min) - paket 4×,,180.00,false,,180.00,2026-09-10,EUR
+SKINCARE - PAKETI,Lifting tretman (45 min) - paket 4×,,130.00,false,,130.00,2026-09-10,EUR
+SKINCARE - PAKETI,Pure Gold - paket 3×,,150.00,false,,150.00,2026-09-10,EUR
+SKINCARE - PAKETI,Tretman područja s maskom (30 min) + Pure Gold Oil — 1×,,80.00,false,,80.00,2026-09-10,EUR
+SKINCARE - PAKETI,Tretman područja s maskom (30 min) + Pure Gold Oil — Paket 5×,,350.00,false,,350.00,2026-09-10,EUR
+SKINCARE - PAKETI,Koža oštećena suncem - eksfolijacija (60 min) — 1×,+ X-Shot; + Caviar ampula; + Clay Lavender maska; + Vita Derma krema,140.00,false,,140.00,2026-09-10,EUR
+SKINCARE - PAKETI,Koža oštećena suncem - eksfolijacija (60 min) — Paket 5×,+ X-Shot; + Caviar ampula; + Clay Lavender maska; + Vita Derma krema,600.00,false,,600.00,2026-09-10,EUR
+SKINCARE - PAKETI,RF tretman (30 min) — 1×,+ X-Shot; + Vita Derma krema,80.00,false,,80.00,2026-09-10,EUR
+SKINCARE - PAKETI,RF tretman (30 min) — Paket 5×,+ X-Shot; + Vita Derma krema,250.00,false,,250.00,2026-09-10,EUR
+SKINCARE - PAKETI,Mezoterapija bez igle (60 min) Vitamin C linija + anti-age tretman — 1×,,100.00,false,,100.00,2026-09-10,EUR
+SKINCARE - PAKETI,Mezoterapija bez igle (60 min) Vitamin C linija + anti-age tretman — Paket 3×,,280.00,false,,280.00,2026-09-10,EUR
+SKINCARE - PAKETI,Tretman hranjenja kože + čišćenje lica (45 min) — 1×,+ maska med; + hranjiva ampula; + hijaluron krema,80.00,false,,80.00,2026-09-10,EUR
+SKINCARE - PAKETI,Tretman hranjenja kože + čišćenje lica (45 min) — Paket 4×,+ maska med; + hranjiva ampula; + hijaluron krema,350.00,false,,350.00,2026-09-10,EUR
+SKINCARE - PAKETI,Tretman obnavljanja i oksigenacije kože (45 min) — 1×,+ Aloe Vera maska; + Oxygen Shot; + Hydro Control krema,110.00,false,,110.00,2026-09-10,EUR
+SKINCARE - PAKETI,Tretman obnavljanja i oksigenacije kože (45 min) — Paket 3×,+ Aloe Vera maska; + Oxygen Shot; + Hydro Control krema,300.00,false,,300.00,2026-09-10,EUR
+SKINCARE - PAKETI,Tretman osjetljive kože (60 min) — 1×,+ Clay + Honey maska; + B5 Boost Shot; + Lipo-peptid krema,100.00,false,,100.00,2026-09-10,EUR
+SKINCARE - PAKETI,Tretman osjetljive kože (60 min) — Paket 4×,+ Clay + Honey maska; + B5 Boost Shot; + Lipo-peptid krema,350.00,false,,350.00,2026-09-10,EUR
+DEPILACIJA,Cijele noge,,30.00,false,,30.00,2026-09-10,EUR
+DEPILACIJA,Cijele ruke,,15.00,false,,15.00,2026-09-10,EUR
+DEPILACIJA,Bikini,,12.00,false,,12.00,2026-09-10,EUR
+DEPILACIJA,Podkoljenice,,15.00,false,,15.00,2026-09-10,EUR
+DEPILACIJA,Podlaktice,,8.00,false,,8.00,2026-09-10,EUR
+DEPILACIJA,Pazuh,,10.00,false,,10.00,2026-09-10,EUR
+DEPILACIJA,Nadusnice,,5.00,false,,5.00,2026-09-10,EUR
+DEPILACIJA,Brada,,6.00,false,,6.00,2026-09-10,EUR
+DEPILACIJA,Leđa,,15.00,false,,15.00,2026-09-10,EUR
+DEPILACIJA,Trbuh,,12.00,false,,12.00,2026-09-10,EUR
+DEPILACIJA,Cijele noge + bikini,,40.00,false,,40.00,2026-09-10,EUR
+DEPILACIJA,Podkoljenice + bikini,,25.00,false,,25.00,2026-09-10,EUR
+DEPILACIJA,Brazilska,,25.00,false,,25.00,2026-09-10,EUR
+DEPILACIJA,Brazilska + bikini,,35.00,false,,35.00,2026-09-10,EUR
+HEAD SPA TRETMANI,Head Spa De Luxe,,120.00,false,,120.00,2026-09-10,EUR
+HEAD SPA TRETMANI,Head Spa Platinum,,140.00,false,,140.00,2026-09-10,EUR
+HEAD SPA TRETMANI,Inhalacija dišnih puteva i lica (morska sol),,15.00,false,,15.00,2026-09-10,EUR
+HEAD SPA TRETMANI,Inhalacija dišnih puteva i lica (eterična ulja),,20.00,false,,20.00,2026-09-10,EUR
+HEAD SPA TRETMANI,Head Spa by Aura,,55.00,false,,55.00,2026-09-10,EUR
+LJEPOTA OČIJU,Brow lift,,28.00,false,,28.00,2026-09-10,EUR
+LJEPOTA OČIJU,Lash lift,,30.00,false,,30.00,2026-09-10,EUR
+LJEPOTA OČIJU,Lash & brow lift,,50.00,false,,50.00,2026-09-10,EUR
+LJEPOTA OČIJU,Skidanje trepavica,,10.00,false,,10.00,2026-09-10,EUR
+LJEPOTA OČIJU,Obrve - korekcija,,7.00,false,,7.00,2026-09-10,EUR
+LJEPOTA OČIJU,Obrve - bojanje,,7.00,false,,7.00,2026-09-10,EUR
+BOTOX AURA - PAKETI,1× tretman,,100.00,false,,100.00,2026-09-10,EUR
+BOTOX AURA - PAKETI,5× tretmana,,300.00,false,,300.00,2026-09-10,EUR
+BOTOX AURA - PAKETI,10× tretmana,,600.00,false,,600.00,2026-09-10,EUR
+EDUKACIJE,Maderoterapija - edukacija,,350.00,false,,350.00,2026-09-10,EUR
+EDUKACIJE,Derma pen - edukacija,,250.00,false,,250.00,2026-09-10,EUR
+POKLON BONOVI,Poklon bon (50 €),,50.00,false,,50.00,2026-09-10,EUR
+POKLON BONOVI,Poklon bon (100 €),,100.00,false,,100.00,2026-09-10,EUR
+POKLON BONOVI,Poklon bon (200 €),,200.00,false,,200.00,2026-09-10,EUR
