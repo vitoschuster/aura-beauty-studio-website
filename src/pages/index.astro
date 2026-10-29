@@ -224,6 +224,24 @@ const reels = [
     alt: "Beauty stolice i hair station u salonu",
   },
 ];
+// Structured data for search and answer engines: only facts printed on this page.
+const business = {
+  '@context': 'https://schema.org',
+  '@type': 'BeautySalon',
+  name: 'Aura Beauty Studio',
+  url: 'https://aurabeautystudio.com.hr/',
+  image: 'https://aurabeautystudio.com.hr/studio/IMG_6978.jpg',
+  description: 'Beauty studio u Zagrebu: masaže, skincare, head spa, nokti i stopala, ljepota očiju i body sculpting.',
+  telephone: '+385953679016',
+  address: { '@type': 'PostalAddress', streetAddress: 'Vukomerec 36', addressLocality: 'Zagreb', addressCountry: 'HR' },
+  openingHoursSpecification: [
+    { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], opens: '09:00', closes: '20:00' },
+    { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Saturday', opens: '09:00', closes: '13:00' },
+  ],
+  hasMap: 'https://maps.google.com/?q=Vukomerec+36+Zagreb',
+  sameAs: ['https://www.instagram.com/aurabeautystudiio/'],
+  knowsAbout: services.map((s) => s.name),
+};
 ---
 
 <!doctype html>
@@ -233,6 +251,20 @@ const reels = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Aura Beauty Studio Zagreb — Masaže, Skincare, Head Spa, Nokti i tretmani tijela. Vukomerec 36, Zagreb." />
     <title>Aura Beauty Studio | Zagreb</title>
+    <link rel="canonical" href="https://aurabeautystudio.com.hr/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="hr_HR" />
+    <meta property="og:site_name" content="Aura Beauty Studio" />
+    <meta property="og:url" content="https://aurabeautystudio.com.hr/" />
+    <meta property="og:title" content="Aura Beauty Studio | Zagreb" />
+    <meta property="og:description" content="Masaže, skincare, head spa, nokti i tretmani tijela. Vukomerec 36, Zagreb." />
+    <meta property="og:image" content="https://aurabeautystudio.com.hr/studio/IMG_6978.jpg" />
+    <meta property="og:image:width" content="1600" />
+    <meta property="og:image:height" content="1200" />
+    <meta property="og:image:alt" content="Interijer Aura Beauty Studija s beauty stolicama i ogledalima" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="Sažetak za AI asistente" />
+    <script type="application/ld+json" set:html={JSON.stringify(business)} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
