@@ -1,0 +1,572 @@
+[
+  {
+    "alert": 58,
+    "package": "zod",
+    "severity": "high",
+    "range": "< 4.6.6",
+    "installed": [
+      "4.6.7"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 57,
+    "package": "astro",
+    "severity": "medium",
+    "range": "< 7.3.2",
+    "installed": [
+      "7.4.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 56,
+    "package": "vite",
+    "severity": "low",
+    "range": ">= 7.0.0, <= 7.3.6",
+    "installed": [
+      "8.3.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 55,
+    "package": "vite",
+    "severity": "medium",
+    "range": ">= 7.0.0, <= 7.3.6",
+    "installed": [
+      "8.3.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 54,
+    "package": "vite",
+    "severity": "medium",
+    "range": ">= 7.0.0, <= 7.3.6",
+    "installed": [
+      "8.3.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 53,
+    "package": "vite",
+    "severity": "high",
+    "range": ">= 7.0.0, <= 7.3.6",
+    "installed": [
+      "8.3.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 52,
+    "package": "vite",
+    "severity": "medium",
+    "range": ">= 7.0.0, <= 7.3.6",
+    "installed": [
+      "8.3.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 51,
+    "package": "devalue",
+    "severity": "high",
+    "range": "<= 5.9.2",
+    "installed": [
+      "6.0.3"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 50,
+    "package": "sharp",
+    "severity": "high",
+    "range": "< 0.35.5",
+    "installed": [
+      "0.35.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 49,
+    "package": "smol-toml",
+    "severity": "medium",
+    "range": "<= 1.8.0",
+    "installed": [
+      "1.9.1"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 48,
+    "package": "source-map-js",
+    "severity": "high",
+    "range": ">= 1.0.0, < 1.2.2",
+    "installed": [
+      "1.2.2"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 47,
+    "package": "devalue",
+    "severity": "high",
+    "range": ">= 5.1.0, <= 5.9.2",
+    "installed": [
+      "6.0.3"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 46,
+    "package": "devalue",
+    "severity": "medium",
+    "range": "<= 5.9.2",
+    "installed": [
+      "6.0.3"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 45,
+    "package": "devalue",
+    "severity": "high",
+    "range": "<= 5.9.2",
+    "installed": [
+      "6.0.3"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 44,
+    "package": "devalue",
+    "severity": "low",
+    "range": ">= 1.0.0, <= 5.9.2",
+    "installed": [
+      "6.0.3"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 43,
+    "package": "devalue",
+    "severity": "medium",
+    "range": "<= 5.9.2",
+    "installed": [
+      "6.0.3"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 42,
+    "package": "devalue",
+    "severity": "medium",
+    "range": "< 5.9.1",
+    "installed": [
+      "6.0.3"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 41,
+    "package": "smol-toml",
+    "severity": "high",
+    "range": "<= 1.7.0",
+    "installed": [
+      "1.9.1"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 40,
+    "package": "astro",
+    "severity": "critical",
+    "range": "< 7.2.8",
+    "installed": [
+      "7.4.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 39,
+    "package": "astro",
+    "severity": "medium",
+    "range": "<= 7.2.3",
+    "installed": [
+      "7.4.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 38,
+    "package": "sharp",
+    "severity": "high",
+    "range": "< 0.35.4",
+    "installed": [
+      "0.35.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 37,
+    "package": "js-yaml",
+    "severity": "high",
+    "range": ">= 4.0.0, < 4.3.2",
+    "installed": [],
+    "vulnerable": false
+  },
+  {
+    "alert": 36,
+    "package": "svgo",
+    "severity": "high",
+    "range": ">= 4.0.0, < 4.1.0",
+    "installed": [
+      "4.1.0"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 35,
+    "package": "svgo",
+    "severity": "medium",
+    "range": ">= 4.0.0, < 4.1.0",
+    "installed": [
+      "4.1.0"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 34,
+    "package": "nanoid",
+    "severity": "high",
+    "range": "< 3.3.12",
+    "installed": [
+      "3.3.20"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 33,
+    "package": "nanoid",
+    "severity": "high",
+    "range": "< 3.3.18",
+    "installed": [
+      "3.3.20"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 32,
+    "package": "nanoid",
+    "severity": "high",
+    "range": "< 3.3.16",
+    "installed": [
+      "3.3.20"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 31,
+    "package": "js-yaml",
+    "severity": "high",
+    "range": ">= 4.0.0, < 4.3.1",
+    "installed": [],
+    "vulnerable": false
+  },
+  {
+    "alert": 30,
+    "package": "postcss",
+    "severity": "medium",
+    "range": "<= 8.5.22",
+    "installed": [
+      "8.5.32"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 29,
+    "package": "postcss",
+    "severity": "high",
+    "range": "<= 8.5.17",
+    "installed": [
+      "8.5.32"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 28,
+    "package": "postcss",
+    "severity": "high",
+    "range": "<= 8.5.11",
+    "installed": [
+      "8.5.32"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 27,
+    "package": "sharp",
+    "severity": "high",
+    "range": "< 0.35.0",
+    "installed": [
+      "0.35.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 26,
+    "package": "svgo",
+    "severity": "high",
+    "range": ">= 4.0.0, < 4.0.2",
+    "installed": [
+      "4.1.0"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 25,
+    "package": "astro",
+    "severity": "medium",
+    "range": "< 7.0.6",
+    "installed": [
+      "7.4.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 24,
+    "package": "astro",
+    "severity": "low",
+    "range": ">= 3.10.0, < 7.0.4",
+    "installed": [
+      "7.4.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 23,
+    "package": "js-yaml",
+    "severity": "high",
+    "range": ">= 4.0.0, < 4.3.0",
+    "installed": [],
+    "vulnerable": false
+  },
+  {
+    "alert": 22,
+    "package": "astro",
+    "severity": "medium",
+    "range": ">= 2.9.0, <= 7.0.9",
+    "installed": [
+      "7.4.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 21,
+    "package": "js-yaml",
+    "severity": "medium",
+    "range": ">= 4.0.0, <= 4.1.1",
+    "installed": [],
+    "vulnerable": false
+  },
+  {
+    "alert": 20,
+    "package": "astro",
+    "severity": "medium",
+    "range": "< 6.4.6",
+    "installed": [
+      "7.4.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 19,
+    "package": "astro",
+    "severity": "high",
+    "range": "< 6.4.6",
+    "installed": [
+      "7.4.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 18,
+    "package": "astro",
+    "severity": "high",
+    "range": "< 6.3.3",
+    "installed": [
+      "7.4.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 17,
+    "package": "vite",
+    "severity": "medium",
+    "range": ">= 7.0.0, <= 7.3.4",
+    "installed": [
+      "8.3.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 16,
+    "package": "vite",
+    "severity": "medium",
+    "range": ">= 7.0.0, <= 7.3.4",
+    "installed": [
+      "8.3.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 15,
+    "package": "esbuild",
+    "severity": "low",
+    "range": ">= 0.27.3, < 0.28.1",
+    "installed": [],
+    "vulnerable": false
+  },
+  {
+    "alert": 14,
+    "package": "devalue",
+    "severity": "high",
+    "range": ">= 5.6.3, <= 5.8.0",
+    "installed": [
+      "6.0.3"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 13,
+    "package": "astro",
+    "severity": "low",
+    "range": "< 6.1.10",
+    "installed": [
+      "7.4.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 12,
+    "package": "postcss",
+    "severity": "medium",
+    "range": "< 8.5.10",
+    "installed": [
+      "8.5.32"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 11,
+    "package": "astro",
+    "severity": "medium",
+    "range": "< 6.1.6",
+    "installed": [
+      "7.4.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 10,
+    "package": "vite",
+    "severity": "medium",
+    "range": ">= 7.0.0, <= 7.3.1",
+    "installed": [
+      "8.3.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 9,
+    "package": "vite",
+    "severity": "high",
+    "range": ">= 7.1.0, <= 7.3.1",
+    "installed": [
+      "8.3.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 8,
+    "package": "vite",
+    "severity": "high",
+    "range": ">= 7.0.0, <= 7.3.1",
+    "installed": [
+      "8.3.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 7,
+    "package": "defu",
+    "severity": "high",
+    "range": "<= 6.1.4",
+    "installed": [
+      "6.1.7"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 6,
+    "package": "astro",
+    "severity": "medium",
+    "range": "< 7.3.2",
+    "installed": [
+      "7.4.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 5,
+    "package": "astro",
+    "severity": "critical",
+    "range": "< 7.2.8",
+    "installed": [
+      "7.4.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 4,
+    "package": "astro",
+    "severity": "medium",
+    "range": "<= 7.2.3",
+    "installed": [
+      "7.4.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 3,
+    "package": "astro",
+    "severity": "medium",
+    "range": "< 7.0.6",
+    "installed": [
+      "7.4.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 2,
+    "package": "astro",
+    "severity": "low",
+    "range": ">= 3.10.0, < 7.0.4",
+    "installed": [
+      "7.4.5"
+    ],
+    "vulnerable": false
+  },
+  {
+    "alert": 1,
+    "package": "astro",
+    "severity": "medium",
+    "range": ">= 2.9.0, <= 7.0.9",
+    "installed": [
+      "7.4.5"
+    ],
+    "vulnerable": false
+  }
+]
