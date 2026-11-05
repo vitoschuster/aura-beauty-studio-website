@@ -3,19 +3,22 @@
   "type": "module",
   "version": "0.0.1",
   "engines": {
-    "node": ">=22.12.0"
+    "node": ">=22.23.4"
   },
   "scripts": {
     "dev": "astro dev",
     "build": "node scripts/export-prices.mjs --check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "export-prices": "node scripts/export-prices.mjs"
+    "export-prices": "node scripts/export-prices.mjs",
+    "lint": "astro check"
   },
   "dependencies": {
-    "astro": "^6.1.2"
+    "astro": "^7.4.5"
   },
-  "overrides": {
-    "vite": "^7"
+  "packageManager": "pnpm@12.16.1",
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "typescript": "^5.9.3"
   }
 }

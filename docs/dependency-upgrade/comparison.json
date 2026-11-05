@@ -1,0 +1,42 @@
+[
+  {
+    "view": "home-desktop",
+    "changedPixels": 0,
+    "totalPixels": 1024000
+  },
+  {
+    "view": "pricing-desktop",
+    "changedPixels": 0,
+    "totalPixels": 1024000
+  },
+  {
+    "view": "contact-desktop",
+    "changedPixels": 0,
+    "totalPixels": 1024000
+  },
+  {
+    "view": "404-desktop",
+    "changedPixels": 0,
+    "totalPixels": 1024000
+  },
+  {
+    "view": "home-mobile",
+    "changedPixels": 0,
+    "totalPixels": 1316640
+  },
+  {
+    "view": "pricing-mobile",
+    "changedPixels": 0,
+    "totalPixels": 1316640
+  },
+  {
+    "view": "contact-mobile",
+    "changedPixels": 0,
+    "totalPixels": 1316640
+  },
+  {
+    "view": "404-mobile",
+    "changedPixels": 0,
+    "totalPixels": 1316640
+  }
+]
